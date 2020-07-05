@@ -1,0 +1,39 @@
+.VueCarousel-navigation-prev {
+    left: -5rem !important;
+    background-image: url("/imgs/carousel/arrow-left.svg");
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 10rem;
+    height: 10rem;
+    background-repeat: no-repeat;
+    outline: none;
+    transition: all .3s ease!important;
+    &:hover{
+        transform: translateY(-50%) translateX(-100%) scale(1.1)!important;
+    }
+}
+
+.VueCarousel-navigation-next {
+    right: -5rem !important;
+    background-image: url("/imgs/carousel/arrow-rgh.svg");
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 10rem;
+    height: 10rem;
+    background-repeat: no-repeat;
+    outline: none;
+    transition: all .3s ease!important;
+    &:hover{
+        transform: translateY(-50%) translateX(100%) scale(1.1)!important;
+    }
+}
+
+.VueCarousel-navigation-button {
+    font-size: 0;
+    outline: none!important;
+}
+
+.VueCarousel-slide{
+    padding: 0 2rem!important;
+    box-sizing: border-box!important;
+}

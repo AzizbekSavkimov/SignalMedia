@@ -1,0 +1,23 @@
+.theme{
+    display: block;
+    font-family: $SourceSansProFont;
+    font-weight:600;
+    font-size: 3.25rem;
+    line-height: 100%;
+    color: $red;
+    text-transform: uppercase;
+}
+
+.signature{
+    font-family: $SourceSansProFont;
+    color: $lightGrey;
+    font-size: 3.25rem;
+    line-height: 110%;
+    &.light{
+        color: #C4C4C4;
+    }
+}
+
+.page{
+    padding-top: 15rem;
+}
